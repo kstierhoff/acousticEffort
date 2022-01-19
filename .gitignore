@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.html
+Data/*.Rdata
+Data/Map/*.Rdata
+Figs/*
+Output/*
