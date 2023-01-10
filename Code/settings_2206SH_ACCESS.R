@@ -1,14 +1,14 @@
 # Survey info -------------------------------------------------------------
-survey.name <- "2205RL"
-survey.vessel <- "Lasker"
+survey.name <- "2206SH"
+survey.vessel <- "Shimada"
 sd.survey   <- FALSE
 
 # Define ERDDAP data variables -------------------------------------------------
-erddap.survey.start  <- "2022-04-18"  # Start of survey for ERDDAP vessel data query
-erddap.survey.end    <- "2022-06-16"  # End of survey for ERDDAP vessel data query
+erddap.survey.start  <- "2022-06-15"  # Start of survey for ERDDAP vessel data query
+erddap.survey.end    <- "2022-06-23"  # End of survey for ERDDAP vessel data query
 
 # Configure columns and classes
-erddap.vessel        <- "WTEG"    # Lasker == WTEG; Shimada == WTED; add "nrt" if during survey
+erddap.vessel        <- "WTED"    # Lasker == WTEG; Shimada == WTED; add "nrt" if during survey
 erddap.vars          <- c("time,latitude,longitude,seaTemperature,platformSpeed")
 erddap.classes       <- c("character", "numeric", "numeric", "numeric","numeric")
 erddap.headers       <- c("time", "lat", "long", "SST", "SOG")
