@@ -1,5 +1,5 @@
 # Survey info -------------------------------------------------------------
-survey.name <- "2205RL"
+survey.name <- "2202RL"
 survey.vessel <- "Lasker"
 sd.survey   <- FALSE
 
