@@ -42,7 +42,7 @@ dir.create(here("Output"))
 ```{r user-input}
 # Set processing controls -------------------------------------------------
 get.nav   <- T
-get.bathy <- F
+get.bathy <- T
 
 # Source survey info ------------------------------------------------------
 source(here("Code/settings_2205SH_CalCOFI.R"))

@@ -1,5 +1,5 @@
 # Survey info -------------------------------------------------------------
-survey.name   <- "2105SH"
+survey.name   <- "2205SH"
 survey.vessel <- "SH"
 
 # Set limits for latitude and longitude
@@ -10,8 +10,8 @@ survey.long <- c(-132, -117)
 sd.survey <- FALSE
 
 # Define ERDDAP data variables -------------------------------------------------
-erddap.survey.start  <- "2021-05-03"  # Start of survey for ERDDAP vessel data query
-erddap.survey.end    <- "2021-05-13"  # End of survey for ERDDAP vessel data query
+erddap.survey.start  <- "2022-04-06"  # Start of survey for ERDDAP vessel data query
+erddap.survey.end    <- "2022-04-28"  # End of survey for ERDDAP vessel data query
 erddap.vessel        <- "WTED"        # Lasker == WTEG; Shimada == WTED
 
 # Configure columns and classes
