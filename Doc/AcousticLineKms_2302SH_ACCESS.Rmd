@@ -1,5 +1,5 @@
 ---
-title: "Acoustic Line Kilometers-Juvenile Rockfish (Summer 2022)"
+title: "Acoustic Line Kilometers-ACCESS Survey (Summer 2023)"
 author: "Kevin L. Stierhoff"
 date: '`r format(Sys.time(), format = "%F %T", tz = "GMT", usetz = T)`'
 css: css/ast.css
@@ -266,6 +266,8 @@ if (sd.survey) {
 # Write results to file
 write_csv(nav.summ, paste(here("Output"), "/", survey.name, "_LineKilometers_", survey.vessel, ".csv", sep = ""))
 ```
+
+This report summarizes acoustic effort conducted by _`r survey.vessel`_ between `r date(min(nav$datetime, na.rm = TRUE))` and `r date(max(nav$datetime, na.rm = TRUE))`.
 
 # Summarize effort by depth and day/night
 
